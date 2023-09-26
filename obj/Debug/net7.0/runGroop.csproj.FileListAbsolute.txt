@@ -1,0 +1,8 @@
+/Users/apple/dotNet/runGroop/obj/Debug/net7.0/runGroop.csproj.AssemblyReference.cache
+/Users/apple/dotNet/runGroop/obj/Debug/net7.0/runGroop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/dotNet/runGroop/obj/Debug/net7.0/runGroop.AssemblyInfoInputs.cache
+/Users/apple/dotNet/runGroop/obj/Debug/net7.0/runGroop.AssemblyInfo.cs
+/Users/apple/dotNet/runGroop/obj/Debug/net7.0/runGroop.csproj.CoreCompileInputs.cache
+/Users/apple/dotNet/runGroop/obj/Debug/net7.0/runGroop.MvcApplicationPartsAssemblyInfo.cache
+/Users/apple/dotNet/runGroop/obj/Debug/net7.0/runGroop.RazorAssemblyInfo.cache
+/Users/apple/dotNet/runGroop/obj/Debug/net7.0/runGroop.RazorAssemblyInfo.cs
