@@ -9,9 +9,15 @@ namespace RunGroopWebApp.Controllers
 {
     public class ClubController : Controller
     {
-        public IActionResult Index()
+        private readonly Data.ApplicationDbContext _context;
+        public ClubController(Data.ApplicationDbContext context)
         {
-            return View();
+            _context = context;
+        }
+        public IActionResult Index() //control stands for C
+        {
+            var clubs = _context.Clubs.ToList();// Model stands for M
+            return View(clubs);//Viewer stands for V 
         }
     }
 }
