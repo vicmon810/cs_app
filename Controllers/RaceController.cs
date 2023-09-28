@@ -9,9 +9,15 @@ namespace RunGroopWebApp.Controllers
 {
     public class RaceController : Controller
     {
+        private readonly Data.ApplicationDbContext _context;
+        public RaceController(Data.ApplicationDbContext context)
+        {
+            _context = context;
+        }
         public IActionResult Index()
         {
-            return View();
+            var race = _context.Races.ToList();
+            return View(race);
         }
     }
 }
